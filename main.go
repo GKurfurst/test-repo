@@ -5,6 +5,8 @@ import "fmt"
 func findAverage(a []int) float64 {
 	count := 4
 	sum := 0
+	b := 1
+	b++
 	for i := 0; i < count; i++ {
 		sum += a[i]
 	}
